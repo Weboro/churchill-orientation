@@ -1,0 +1,39 @@
+:root {
+  --highlight-orange: #f2cb91;
+  --primary-orange: #e59623;
+  --primary-green: #223e29;
+  --matte-purple: #2c2b4b;
+  --normal-grey: #e9e9e9;
+  --light-grey: #f3e4e4;
+  --text-highlight: #606061;
+}
+body {
+  color: var(--matte-purple);
+}
+.container-blog {
+  width: 100%;
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .container-blog {
+    max-width: 490px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-blog {
+    max-width: 618px;
+  }
+}
+@media (min-width: 1024px) {
+  .container-blog {
+    max-width: 874px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-blog {
+    max-width: 1030px;
+  }
+}
